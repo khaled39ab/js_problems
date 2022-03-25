@@ -13,8 +13,13 @@ function multiply(...args){
 function subtract(x,y){
     return x - y
 }
+
 function divide(x,y){
     return x / y
+}
+
+function mode(x,y){
+    return x % y
 }
 
 const addition = add(4,5,6);
@@ -28,3 +33,6 @@ console.log("Subtraction is : " + subtraction);
 
 const division = divide (150, 15);
 console.log("Division is : " + division);
+
+const modulus = mode (150, 15);
+console.log("Modulus is : " + modulus);
