@@ -40,3 +40,14 @@ function isBigger(compareNumber){
 }
 
 console.log(isBigger(35));
+
+const numbers = [10, 11, 11, 12, 14, 15, 15, 16, 10, 20];
+const unique =[];
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    if(unique.indexOf (element)== -1){
+        unique.push(element);
+    }
+}
+
+console.log(unique);
