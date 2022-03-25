@@ -26,3 +26,17 @@ function isExist(number){
 }
 
 isExist(25);
+
+function isBigger(compareNumber){
+    const bigger = []
+
+    for (let i = 0; i < num.length; i++) {
+        const element = num[i];
+        if (element > compareNumber){
+            bigger.push (element);
+        }
+    }
+    return bigger;
+}
+
+console.log(isBigger(35));
